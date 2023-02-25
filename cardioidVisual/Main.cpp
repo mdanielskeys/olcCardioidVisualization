@@ -79,6 +79,10 @@ public:
 		Clear(olc::BLACK);
 		
 		factor += 0.01f; // pattern
+		if (factor > 10.0f)
+		{
+			factor = 0.01f;
+		}
 
 		DrawCircle(center, r, olc::WHITE);
 
@@ -96,6 +100,8 @@ public:
 
 			DrawLine(a, b, GetColor(i * factor));
 		}
+
+		
 		return true;
 	}
 };
