@@ -21,6 +21,9 @@ private:
 public:
 	float map(float value, float start1, float stop1, float start2, float stop2)
 	{
+		// prevent a divide by zero
+		if (start1 == 0 and stop1 == 0) return 0.0f;
+
 		return (value * (stop2 - start2)) / (stop1 - start1);
 	}
 
