@@ -11,6 +11,8 @@ The author is using Processing with the code, but I've been relearning C++. This
 
 ## License
 Of course there is a license to follow for the olcPixelGameEngine 
+
+The below license opens my code up for utilization and sharing.
 MIT License
 
 Copyright (c) 2023 Michael Daniels
